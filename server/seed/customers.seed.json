@@ -1,0 +1,72 @@
+[
+  {
+    "customerId": "a001",
+    "name": "Sephora Admin",
+    "email": "admin@sephora.com",
+    "password": "admin123",
+    "membershipTier": "Staff",
+    "points": 0,
+    "joinDate": "2020-01-01",
+    "role": "admin"
+  },
+  {
+    "customerId": "a002",
+    "name": "Store Manager",
+    "email": "manager@sephora.com",
+    "password": "manager123",
+    "membershipTier": "Staff",
+    "points": 0,
+    "joinDate": "2021-06-01",
+    "role": "admin"
+  },
+  {
+    "customerId": "c001",
+    "name": "Juana Dela Cruz",
+    "email": "juana.delacruz@example.com",
+    "password": "beauty123",
+    "membershipTier": "VIB",
+    "points": 3420,
+    "joinDate": "2024-03-15",
+    "role": "customer"
+  },
+  {
+    "customerId": "c002",
+    "name": "Marco Reyes",
+    "email": "marco.reyes@example.com",
+    "password": "beauty123",
+    "membershipTier": "Insider",
+    "points": 540,
+    "joinDate": "2025-11-02",
+    "role": "customer"
+  },
+  {
+    "customerId": "c003",
+    "name": "Sophia Lim",
+    "email": "sophia.lim@example.com",
+    "password": "beauty123",
+    "membershipTier": "Rouge",
+    "points": 12980,
+    "joinDate": "2021-07-09",
+    "role": "customer"
+  },
+  {
+    "customerId": "c004",
+    "name": "Emily Ramos",
+    "email": "emily.ramos@example.com",
+    "password": "beauty123",
+    "membershipTier": "VIB",
+    "points": 5640,
+    "joinDate": "2023-01-22",
+    "role": "customer"
+  },
+  {
+    "customerId": "c005",
+    "name": "Chice Mercado",
+    "email": "chice.mercado@example.com",
+    "password": "beauty123",
+    "membershipTier": "Rouge",
+    "points": 18760,
+    "joinDate": "2020-05-30",
+    "role": "customer"
+  }
+]

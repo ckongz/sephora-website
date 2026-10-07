@@ -1,0 +1,17 @@
+{
+  "name": "sephora-project-server",
+  "version": "1.0.0",
+  "description": "Express + SQLite backend for the Sephora Project: products, customers, orders, inquiries, messages, newsletter.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node db.js --reset"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "better-sqlite3": "^12.11.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

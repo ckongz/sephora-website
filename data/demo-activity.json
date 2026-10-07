@@ -1,0 +1,189 @@
+{
+  "orders": [
+    {
+      "ref": "SEP-1000101",
+      "customerId": "c001",
+      "address": "Quezon City, Metro Manila",
+      "status": "Delivered",
+      "daysAgo": 21,
+      "items": [
+        [
+          "p001",
+          1
+        ],
+        [
+          "p003",
+          2
+        ]
+      ]
+    },
+    {
+      "ref": "SEP-1000102",
+      "customerId": "c001",
+      "address": "Quezon City, Metro Manila",
+      "status": "Shipped",
+      "daysAgo": 3,
+      "items": [
+        [
+          "p005",
+          1
+        ]
+      ]
+    },
+    {
+      "ref": "SEP-1000103",
+      "customerId": "c002",
+      "address": "Angeles City, Pampanga",
+      "status": "Processing",
+      "daysAgo": 2,
+      "items": [
+        [
+          "p002",
+          1
+        ],
+        [
+          "p004",
+          1
+        ]
+      ]
+    },
+    {
+      "ref": "SEP-1000104",
+      "customerId": "c003",
+      "address": "Makati City, Metro Manila",
+      "status": "Delivered",
+      "daysAgo": 40,
+      "items": [
+        [
+          "p008",
+          1
+        ],
+        [
+          "p007",
+          2
+        ]
+      ]
+    },
+    {
+      "ref": "SEP-1000105",
+      "customerId": "c003",
+      "address": "Makati City, Metro Manila",
+      "status": "Placed",
+      "daysAgo": 1,
+      "items": [
+        [
+          "p001",
+          2
+        ]
+      ]
+    },
+    {
+      "ref": "SEP-1000106",
+      "customerId": "c004",
+      "address": "Cebu City, Cebu",
+      "status": "Delivered",
+      "daysAgo": 12,
+      "items": [
+        [
+          "p003",
+          1
+        ],
+        [
+          "p004",
+          3
+        ]
+      ]
+    },
+    {
+      "ref": "SEP-1000107",
+      "customerId": "c005",
+      "address": "Davao City, Davao del Sur",
+      "status": "Cancelled",
+      "daysAgo": 9,
+      "items": [
+        [
+          "p002",
+          1
+        ]
+      ]
+    },
+    {
+      "ref": "SEP-1000108",
+      "customerId": "c005",
+      "address": "Davao City, Davao del Sur",
+      "status": "Delivered",
+      "daysAgo": 30,
+      "items": [
+        [
+          "p005",
+          1
+        ],
+        [
+          "p008",
+          1
+        ]
+      ]
+    }
+  ],
+  "messages": [
+    {
+      "ref": "MSG-100001",
+      "name": "Anna Santos",
+      "email": "anna.santos@example.com",
+      "subject": "Shade match question",
+      "daysAgo": 4,
+      "message": "Hi! Which Cloud Cushion shade would suit a medium skin tone with warm undertones?"
+    },
+    {
+      "ref": "MSG-100002",
+      "name": "Paolo Garcia",
+      "email": "paolo.garcia@example.com",
+      "subject": "Order delivery time",
+      "daysAgo": 1,
+      "message": "How long does standard shipping to Pampanga usually take?"
+    }
+  ],
+  "inquiries": [
+    {
+      "productId": "p001",
+      "name": "Lea Navarro",
+      "email": "lea.navarro@example.com",
+      "message": "Is this suitable for oily skin?",
+      "daysAgo": 6
+    },
+    {
+      "productId": "p005",
+      "name": "Marco Reyes",
+      "email": "marco.reyes@example.com",
+      "message": "Will this be restocked soon?",
+      "daysAgo": 2
+    }
+  ],
+  "subscribers": [
+    {
+      "email": "juana.delacruz@example.com",
+      "daysAgo": 10
+    },
+    {
+      "email": "sophia.lim@example.com",
+      "daysAgo": 11
+    },
+    {
+      "email": "anna.santos@example.com",
+      "daysAgo": 12
+    }
+  ],
+  "giftcards": [
+    {
+      "code": "GC-A1B2-C3D4-E5F6",
+      "amount": 1500,
+      "format": "email",
+      "recipientName": "Maria Dela Cruz",
+      "recipientEmail": "maria@example.com",
+      "senderName": "Juana Dela Cruz",
+      "senderCustomerId": "c001",
+      "message": "Happy birthday!",
+      "daysAgo": 15
+    }
+  ]
+}

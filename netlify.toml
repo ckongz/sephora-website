@@ -1,0 +1,12 @@
+# Netlify: this is a static site, so no build step is needed.
+# The whole project runs here in "static mode": GET data/products.json and
+# data/customers.json, plus a demo database kept in the visitor's browser.
+[build]
+  publish = "."
+
+# The Node server source is not part of the public website.
+[[redirects]]
+  from = "/server/*"
+  to = "/index.html"
+  status = 404
+  force = true

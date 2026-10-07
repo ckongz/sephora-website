@@ -1,0 +1,62 @@
+/* ===================================================================
+   RESPONSIVE.CSS — tablet & mobile breakpoints
+=================================================================== */
+
+@media (max-width: 1080px){
+  .container{padding:0 24px;}
+  .category-grid{grid-template-columns:repeat(2,1fr);}
+  .product-grid{grid-template-columns:repeat(3,1fr);}
+  .feature-grid{grid-template-columns:repeat(3,1fr);}
+  .footer-grid{grid-template-columns:1fr 1fr 1fr;}
+  .promo-row{grid-template-columns:1fr 1fr;}
+  .values-grid, .stat-grid{grid-template-columns:repeat(2,1fr);}
+  .gallery-grid{grid-template-columns:repeat(3,1fr);}
+}
+
+@media (max-width: 900px){
+  .main-nav{display:none;}
+  .hamburger{display:flex;}
+  .hero{grid-template-columns:1fr;min-height:auto;}
+  .hero-media{height:52vh;order:-1;}
+  .hero-copy{padding:52px 26px;}
+  .two-col{grid-template-columns:1fr;gap:36px;}
+  .two-col.reverse{direction:ltr;}
+  .split-form{grid-template-columns:1fr;}
+  .split-form .visual{height:260px;}
+  .legal-wrap{grid-template-columns:1fr;}
+  .jump-list{position:static;flex-direction:row;flex-wrap:wrap;margin-bottom:30px;}
+}
+
+@media (max-width: 720px){
+  .section{padding:64px 0;}
+  .section.tight{padding:46px 0;}
+  .container{padding:0 20px;}
+  .category-grid{grid-template-columns:repeat(2,1fr);gap:14px;}
+  .product-grid{grid-template-columns:repeat(2,1fr);gap:16px;}
+  .feature-grid{grid-template-columns:1fr 1fr;}
+  .pubmat-grid{grid-template-columns:1fr;}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:30px;}
+  .promo-row{grid-template-columns:1fr;}
+  .values-grid, .stat-grid{grid-template-columns:1fr 1fr;}
+  .gallery-grid{grid-template-columns:repeat(2,1fr);}
+  .cart-table thead{display:none;}
+  .cart-table tr{display:flex;flex-wrap:wrap;gap:10px;padding:14px 0;}
+  .cart-table td{padding:4px 0;border:none;}
+  .store-card{flex-direction:column;}
+  .radio-group{flex-direction:column;}
+  .countdown{gap:8px;}
+  .countdown .box{min-width:58px;padding:10px 12px;}
+  .newsletter-form{flex-direction:column;}
+  .footer-bottom{flex-direction:column;text-align:center;}
+  h1{font-size:2.2rem;}
+}
+
+@media (max-width: 480px){
+  .category-grid{grid-template-columns:1fr 1fr;}
+  .product-grid{grid-template-columns:1fr 1fr;}
+  .feature-grid{grid-template-columns:1fr;}
+  .footer-grid{grid-template-columns:1fr;}
+  .values-grid, .stat-grid, .gallery-grid{grid-template-columns:1fr 1fr;}
+  .amount-group{gap:8px;}
+  .amount-btn{flex:1 1 40%;text-align:center;}
+}

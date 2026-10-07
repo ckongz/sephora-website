@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checkout | Sephora</title>
+<meta name="description" content="Complete your Sephora order — shipping details and payment method.">
+<link rel="icon" type="image/jpeg" href="images/gallery/favicon.png">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/forms.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/enhance.css">
+
+</head>
+<body>
+
+<div class="announcement-bar"><div class="track">✨ FREE STANDARD SHIPPING ON ORDERS OVER ₱1,500 &nbsp;|&nbsp; THE BER-MONTHS SALE IS LIVE — UP TO 30% OFF &nbsp;|&nbsp; JOIN BEAUTY INSIDER FOR FREE REWARDS ✨</div></div>
+<header class="site-header">
+  <div class="nav-wrap">
+    <div class="logo"><a href="index.html">SEPHORA<span>Beauty. All Yours.</span></a></div>
+    <nav class="main-nav">
+      <a href="products.html" class="active">Shop</a>
+<a href="brands.html" class="">Brands</a>
+<a href="features.html" class="">Features</a>
+<a href="offers.html" class="">Offers</a>
+<a href="gift-cards.html" class="">Gift Cards</a>
+<a href="about.html" class="">About</a>
+<a href="faq.html" class="">FAQ</a>
+<a href="contact.html" class="">Contact</a>
+    </nav>
+    <div class="nav-icons">
+      <button class="icon-btn search-toggle" aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></button>
+      <a href="login.html" class="icon-btn" aria-label="Account"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4.5 5-6 8-6s6.5 1.5 8 6"/></svg></a>
+      <a href="cart.html" class="icon-btn cart-icon" aria-label="Cart"><svg viewBox="0 0 24 24"><path d="M6 8h12l-1 13H7L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="cart-count">0</span></a>
+      <button class="hamburger" aria-label="Menu"><svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    </div>
+  </div>
+  <div class="search-panel">
+    <div class="container">
+      <form id="header-search-form" role="search">
+        <input type="text" id="header-search-input" name="q" placeholder="Search products, brands, or concerns (e.g. 'dry skin')" autocomplete="off">
+        <button type="submit" class="btn btn-primary btn-sm">Search</button>
+      </form>
+    </div>
+  </div>
+</header>
+<div class="scrim"></div>
+<aside class="mobile-nav">
+  <button class="mobile-nav-close" aria-label="Close menu"><svg viewBox="0 0 24 24"><path d="M5 5l14 14M19 5L5 19"/></svg></button>
+  <div style="clear:both;height:30px;"></div>
+  <a href="products.html">Shop</a>
+<a href="brands.html">Brands</a>
+<a href="features.html">Features</a>
+<a href="offers.html">Offers</a>
+<a href="gift-cards.html">Gift Cards</a>
+<a href="about.html">About</a>
+<a href="faq.html">FAQ</a>
+<a href="contact.html">Contact</a>
+  <div style="margin-top:24px;display:flex;gap:14px;">
+    <a href="login.html" class="btn btn-outline btn-sm">Login</a>
+    <a href="signup.html" class="btn btn-primary btn-sm">Join</a>
+  </div>
+</aside>
+
+<section class="page-hero" style="padding:130px 0 60px;">
+  <div class="container">
+    <span class="eyebrow">Almost There</span>
+    <h1>Checkout</h1>
+    <div class="breadcrumb"><a href="index.html">Home</a> / <a href="cart.html">Cart</a> / Checkout</div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:20px;">
+  <div class="container">
+    <div class="two-col" style="align-items:flex-start;grid-template-columns:1.4fr 1fr;">
+      <form class="reveal" id="checkout-form" novalidate>
+        <h3>Shipping Details</h3>
+        <div class="row-2">
+          <div class="field"><label for="co-first">First Name</label><input type="text" id="co-first" autocomplete="given-name" required><span class="err-msg">Required.</span></div>
+          <div class="field"><label for="co-last">Last Name</label><input type="text" id="co-last" autocomplete="family-name" required><span class="err-msg">Required.</span></div>
+        </div>
+        <div class="field"><label for="co-email">Email Address</label><input type="email" id="co-email" autocomplete="email" required><span class="err-msg">Please enter a valid email address.</span></div>
+        <div class="field"><label for="co-address">Address</label><input type="text" id="co-address" autocomplete="street-address" required><span class="err-msg">Required.</span></div>
+        <div class="row-2">
+          <div class="field"><label for="co-city">City</label><input type="text" id="co-city" autocomplete="address-level2" required><span class="err-msg">Required.</span></div>
+          <div class="field"><label for="co-postal">Postal Code</label><input type="text" id="co-postal" autocomplete="postal-code" required><span class="err-msg">Required.</span></div>
+        </div>
+        <div class="field"><label for="co-mobile">Mobile Number</label><input type="tel" id="co-mobile" autocomplete="tel" placeholder="e.g. 0917 123 4567" required><span class="err-msg">Please enter a valid mobile number.</span></div>
+        <h3 style="margin-top:36px;">Payment Method</h3>
+        <div class="radio-group" style="margin-bottom:24px;">
+          <div class="radio-card"><input type="radio" name="pay" id="pay-card" checked><label for="pay-card">Credit / Debit Card</label></div>
+          <div class="radio-card"><input type="radio" name="pay" id="pay-gcash"><label for="pay-gcash">GCash</label></div>
+          <div class="radio-card"><input type="radio" name="pay" id="pay-gift"><label for="pay-gift">Sephora Gift Card</label></div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block" id="co-submit">Place Order</button>
+        <div class="form-msg err-msg" id="checkout-error" role="alert" style="display:none;margin-top:16px;"></div>
+        <div class="form-msg success" id="checkout-success" style="display:none;margin-top:16px;"></div>
+      </form>
+      <div class="order-summary reveal reveal-delay-1">
+        <h3>Order Summary</h3>
+        <div class="summary-row"><span>Subtotal</span><span id="co-subtotal">₱0.00</span></div>
+        <div class="summary-row"><span>Shipping</span><span>Free</span></div>
+        <div class="summary-row total"><span>Total</span><span id="co-total">₱0.00</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+document.addEventListener('DOMContentLoaded', async () => {
+  const $ = id => document.getElementById(id);
+  const fmt = n => '₱' + n.toLocaleString('en-PH', {minimumFractionDigits:2});
+  const sub = window.Cart ? Cart.subtotal() : 0;
+  $('co-subtotal').textContent = fmt(sub);
+  $('co-total').textContent = fmt(sub);
+
+  // empty bag: nothing to order
+  if (!window.Cart || !Cart.readCart().length) {
+    $('co-submit').disabled = true;
+    const e = $('checkout-error');
+    e.style.display = 'block';
+    e.innerHTML = 'Your bag is empty. <a href="products.html" class="btn-ghost">Browse products</a>';
+  }
+
+  // prefill from the logged-in customer
+  try {
+    const me = await Api.me();
+    if (me) { const [f, ...l] = me.name.split(' '); $('co-first').value = f || ''; $('co-last').value = l.join(' '); $('co-email').value = me.email; }
+  } catch (err) {}
+
+  $('checkout-form')?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const err = $('checkout-error'); err.style.display = 'none';
+    let valid = true;
+    ['co-first','co-last','co-email','co-address','co-city','co-postal','co-mobile'].forEach(id => {
+      const el = $(id), f = el.closest('.field');
+      let ok = el.value.trim().length > 0;
+      if (id === 'co-email') ok = Api.isEmail(el.value);
+      if (id === 'co-mobile') ok = el.value.replace(/\D/g, '').length >= 10;
+      f.classList.toggle('error', !ok);
+      if (!ok) valid = false;
+    });
+    if (!valid) { document.querySelector('#checkout-form .field.error input')?.focus(); return; }
+
+    const btn = $('co-submit'), old = btn.textContent;
+    btn.disabled = true; btn.textContent = 'Placing order…';
+    try {
+      const r = await Api.placeOrder({
+        items: Cart.readCart(),
+        name: $('co-first').value.trim() + ' ' + $('co-last').value.trim(),
+        email: $('co-email').value.trim(),
+        address: [$('co-address').value, $('co-city').value, $('co-postal').value].map(x => x.trim()).join(', ')
+      });
+      Cart.clearCart();
+      const ok = $('checkout-success');
+      ok.style.display = 'block';
+      ok.innerHTML = 'Thank you! Order <strong>' + Api.esc(r.ref) + '</strong> has been placed (' + fmt(r.total) + ').' +
+        (r.earned ? ' You earned <strong>' + r.earned.toLocaleString() + '</strong> Beauty Insider points.' : '') +
+        ' A confirmation is on its way to your email. <a href="account.html" class="btn-ghost">View my orders</a>';
+      btn.style.display = 'none';
+      $('co-subtotal').textContent = fmt(0); $('co-total').textContent = fmt(0);
+    } catch (ex) {
+      err.style.display = 'block'; err.textContent = ex.message;
+      btn.disabled = false; btn.textContent = old;
+    }
+  });
+});
+</script>
+
+<div class="newsletter-strip">
+  <div class="container">
+    <span class="eyebrow on-dark">Straight To Your Inbox</span>
+    <h2 style="color:#fff;">Get 10% Off Your First Order</h2>
+    <p style="color:#e9ddd5;max-width:520px;margin:0 auto;">Sign up for exclusive offers, early sale access, and beauty tips — Beauty Insiders only.</p>
+    <form class="newsletter-form">
+      <input type="email" placeholder="Enter your email address" required>
+      <button type="submit" class="btn btn-dark">Get My Offer</button>
+    </form>
+    <div class="form-msg"></div>
+  </div>
+</div>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">SEPHORA</div>
+        <p style="font-size:.85rem;color:#a89a91;max-width:260px;">We belong to something beautiful. Makeup, skincare, and fragrance from the brands you love — and the ones you're about to.</p>
+        <div class="social-row">
+          <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
+          <a href="https://tiktok.com" aria-label="TikTok" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M14 4v9.5a3.5 3.5 0 1 1-3-3.46"/><path d="M14 4c.5 2.5 2 4 4.5 4.3"/></svg></a>
+          <a href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M14 21v-8h3l.5-3.5H14V7.2c0-1 .4-1.7 1.8-1.7H18V2.3C17.6 2.2 16.3 2 14.8 2 11.7 2 10 3.9 10 7v2.5H7V13h3v8z" fill="currentColor" stroke="none"/></svg></a>
+        </div>
+        <div class="follower-count">2.4M followers across social · @sephora</div>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="products.html">All Products</a></li>
+          <li><a href="brands.html">Brands</a></li>
+          <li><a href="offers.html">Offers</a></li>
+          <li><a href="gift-cards.html">Gift Cards</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <ul>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="cart.html">Track Order</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Account</h4>
+        <ul>
+          <li><a href="signup.html">Join Beauty Insider</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="account.html">My Account</a></li>
+          <li><a href="forgot-password.html">Forgot Password</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="terms-of-use.html">Terms of Use</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Sephora Project — an academic, non-commercial recreation for coursework purposes.</span>
+      <span><a href="privacy-policy.html">Privacy</a> &nbsp;·&nbsp; <a href="terms-of-use.html">Terms</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/api.js"></script>
+<script src="js/main.js"></script>
+<script src="js/enhance.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/newsletter.js"></script>
+</body>
+</html>

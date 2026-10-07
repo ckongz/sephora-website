@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gift Cards | Sephora</title>
+<meta name="description" content="Send a Sephora e-gift card or physical gift card — never expires, works online or in-store.">
+<link rel="icon" type="image/jpeg" href="images/gallery/favicon.png">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/forms.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/enhance.css">
+
+</head>
+<body>
+
+<div class="announcement-bar"><div class="track">✨ FREE STANDARD SHIPPING ON ORDERS OVER ₱1,500 &nbsp;|&nbsp; THE BER-MONTHS SALE IS LIVE — UP TO 30% OFF &nbsp;|&nbsp; JOIN BEAUTY INSIDER FOR FREE REWARDS ✨</div></div>
+<header class="site-header">
+  <div class="nav-wrap">
+    <div class="logo"><a href="index.html">SEPHORA<span>Beauty. All Yours.</span></a></div>
+    <nav class="main-nav">
+      <a href="products.html" class="">Shop</a>
+<a href="brands.html" class="">Brands</a>
+<a href="features.html" class="">Features</a>
+<a href="offers.html" class="">Offers</a>
+<a href="gift-cards.html" class="active">Gift Cards</a>
+<a href="about.html" class="">About</a>
+<a href="faq.html" class="">FAQ</a>
+<a href="contact.html" class="">Contact</a>
+    </nav>
+    <div class="nav-icons">
+      <button class="icon-btn search-toggle" aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></button>
+      <a href="login.html" class="icon-btn" aria-label="Account"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4.5 5-6 8-6s6.5 1.5 8 6"/></svg></a>
+      <a href="cart.html" class="icon-btn cart-icon" aria-label="Cart"><svg viewBox="0 0 24 24"><path d="M6 8h12l-1 13H7L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="cart-count">0</span></a>
+      <button class="hamburger" aria-label="Menu"><svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    </div>
+  </div>
+  <div class="search-panel">
+    <div class="container">
+      <form id="header-search-form" role="search">
+        <input type="text" id="header-search-input" name="q" placeholder="Search products, brands, or concerns (e.g. 'dry skin')" autocomplete="off">
+        <button type="submit" class="btn btn-primary btn-sm">Search</button>
+      </form>
+    </div>
+  </div>
+</header>
+<div class="scrim"></div>
+<aside class="mobile-nav">
+  <button class="mobile-nav-close" aria-label="Close menu"><svg viewBox="0 0 24 24"><path d="M5 5l14 14M19 5L5 19"/></svg></button>
+  <div style="clear:both;height:30px;"></div>
+  <a href="products.html">Shop</a>
+<a href="brands.html">Brands</a>
+<a href="features.html">Features</a>
+<a href="offers.html">Offers</a>
+<a href="gift-cards.html">Gift Cards</a>
+<a href="about.html">About</a>
+<a href="faq.html">FAQ</a>
+<a href="contact.html">Contact</a>
+  <div style="margin-top:24px;display:flex;gap:14px;">
+    <a href="login.html" class="btn btn-outline btn-sm">Login</a>
+    <a href="signup.html" class="btn btn-primary btn-sm">Join</a>
+  </div>
+</aside>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Give The Gift Of Glow</span>
+    <h1>Give The Gift Of Glow</h1>
+    <div class="breadcrumb"><a href="index.html">Home</a> / Gift Cards</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="two-col">
+      <div class="reveal">
+        <p class="lede">Can't decide what they'll love? Let them choose. Sephora gift cards never expire and work online or in-store.</p>
+
+        <form class="form-shell" id="giftcard-form" style="max-width:560px;" novalidate>
+          <div class="field">
+            <label>Format</label>
+            <div class="radio-group">
+              <div class="radio-card">
+                <input type="radio" name="gc-format" id="gc-format-email" value="email" checked>
+                <label for="gc-format-email">E-Gift Card (Email)</label>
+              </div>
+              <div class="radio-card">
+                <input type="radio" name="gc-format" id="gc-format-physical" value="physical">
+                <label for="gc-format-physical">Physical Gift Card (Ship)</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="field">
+            <label>Amount — <span id="gc-amount-preview">₱500</span></label>
+            <div class="amount-group">
+              <button type="button" class="amount-btn active" data-amount="500">₱500</button>
+              <button type="button" class="amount-btn" data-amount="1000">₱1,000</button>
+              <button type="button" class="amount-btn" data-amount="2000">₱2,000</button>
+              <button type="button" class="amount-btn" data-amount="5000">₱5,000</button>
+              <button type="button" class="amount-btn" data-amount="custom">Custom</button>
+            </div>
+          </div>
+          <div class="field" id="gc-custom-amount-field" style="display:none;">
+            <label for="gc-custom">Custom Amount (₱)</label>
+            <input type="number" id="gc-custom" min="100" placeholder="e.g. 1500">
+          </div>
+
+          <div class="field">
+            <label for="gc-recipient-name">Recipient Name</label>
+            <input type="text" id="gc-recipient-name" required>
+            <span class="err-msg">Recipient name is required.</span>
+          </div>
+          <div class="field" id="gc-recipient-email-field">
+            <label for="gc-recipient-email">Recipient Email</label>
+            <input type="email" id="gc-recipient-email" required>
+          </div>
+          <div class="field" id="gc-shipping-field" style="display:none;">
+            <label for="gc-shipping-address">Shipping Address</label>
+            <input type="text" id="gc-shipping-address">
+          </div>
+          <div class="field">
+            <label for="gc-your-name">Your Name</label>
+            <input type="text" id="gc-your-name" required>
+            <span class="err-msg">Your name is required.</span>
+          </div>
+          <div class="field">
+            <label for="gc-message">Personal Message (optional)</label>
+            <textarea id="gc-message" maxlength="200" placeholder="Write a short note..."></textarea>
+            <div class="char-count" id="gc-char-count">0/200</div>
+          </div>
+          <div class="field">
+            <label for="gc-delivery-date">Delivery Date</label>
+            <input type="date" id="gc-delivery-date">
+            <span class="hint">Leave blank to send now.</span>
+          </div>
+          <div class="field">
+            <label for="gc-promo">Promo/Discount Code (optional)</label>
+            <input type="text" id="gc-promo" placeholder="e.g. GLOW10">
+          </div>
+          <div class="checkbox-row" style="margin-bottom:24px;">
+            <input type="checkbox" id="gc-terms">
+            <label for="gc-terms">I agree to the <a href="terms-of-use.html">Terms of Use</a> and <a href="privacy-policy.html">Privacy Policy</a>.</label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send Gift Card</button>
+        </form>
+        <div class="form-msg success" id="gc-confirmation" style="display:none;margin-top:20px;"></div>
+      </div>
+
+      <div class="reveal reveal-delay-1">
+        <div class="gc-preview"><div class="brand">SEPHORA</div><div><div class="sub" id="gc-live-to">For someone special</div><div class="amt" id="gc-live-amt">₱500</div><div class="sub">Gift Card · Never expires · Online &amp; in-store</div></div></div>
+        <img src="images/gallery/gift-card.jpg" alt="Sephora gift card" style="border-radius:18px;margin-bottom:34px;width:100%;object-fit:cover;max-height:300px;">
+        <div class="benefit-strip">
+          <span class="eyebrow">More Value When You Gift More</span>
+          <ul>
+            <li><svg viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg><span><strong>Bundle Bonus</strong> — Buy ₱2,000 in gift cards, get a ₱200 bonus e-gift card free.</span></li>
+            <li><svg viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg><span><strong>Beauty Insider Perk</strong> — Members earn 1 point per ₱1 spent on gift cards.</span></li>
+            <li><svg viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg><span><strong>Ber-Months Gifting Deal</strong> — Every physical gift card ships with free festive gift-wrap (Sept–Dec).</span></li>
+            <li><svg viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg><span><strong>Referral Discount</strong> — Share your purchase link; both accounts get ₱100 Beauty Insider Cash on a friend's first buy.</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-beige">
+  <div class="container">
+    <div class="text-center reveal" style="max-width:640px;margin-bottom:44px;">
+      <span class="eyebrow">Perfect For Every Moment</span>
+      <h2>Who Are You Gifting?</h2>
+    </div>
+    <div class="gc-occasions">
+      <div class="occasion reveal"><span class="emoji">🎂</span><h3>Birthdays</h3><p>Schedule it for the big day and let them pick their treat.</p></div>
+      <div class="occasion reveal reveal-delay-1"><span class="emoji">🎄</span><h3>Holidays</h3><p>The easy answer for Christmas lists, Noche Buena and Secret Santa.</p></div>
+      <div class="occasion reveal reveal-delay-2"><span class="emoji">💐</span><h3>Thank You</h3><p>A little glow for teachers, hosts and bridesmaids.</p></div>
+      <div class="occasion reveal reveal-delay-3"><span class="emoji">💝</span><h3>Just Because</h3><p>Surprise a friend, sister or mom with no occasion needed.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="text-center reveal" style="max-width:640px;margin-bottom:44px;">
+      <span class="eyebrow">Why Gift Sephora</span>
+      <h2>Gifting Made Effortless</h2>
+    </div>
+    <div class="grid-3">
+      <div class="info-card reveal"><div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg></div><h3>Never Expires</h3><p>No deadlines or fees. They can use it whenever the mood strikes.</p></div>
+      <div class="info-card reveal reveal-delay-1"><div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M3 6h18v12H3z"/><path d="M3 7l9 7 9-7"/></svg></div><h3>Instant E-Delivery</h3><p>Send by email in seconds, or schedule it for the perfect moment.</p></div>
+      <div class="info-card reveal reveal-delay-2"><div class="feature-icon"><svg viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="13" rx="1"/><path d="M3 12h18M12 8v13"/></svg></div><h3>Beautifully Wrapped</h3><p>Physical cards arrive in festive packaging with your personal note.</p></div>
+    </div>
+    <div class="text-center" style="margin-top:34px;"><p style="color:var(--ink-soft);">Questions about balances or redemption? <a href="faq.html" class="btn-ghost">Read our FAQ</a></p></div>
+  </div>
+</section>
+
+<div class="newsletter-strip">
+  <div class="container">
+    <span class="eyebrow on-dark">Straight To Your Inbox</span>
+    <h2 style="color:#fff;">Get 10% Off Your First Order</h2>
+    <p style="color:#e9ddd5;max-width:520px;margin:0 auto;">Sign up for exclusive offers, early sale access, and beauty tips — Beauty Insiders only.</p>
+    <form class="newsletter-form">
+      <input type="email" placeholder="Enter your email address" required>
+      <button type="submit" class="btn btn-dark">Get My Offer</button>
+    </form>
+    <div class="form-msg"></div>
+  </div>
+</div>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">SEPHORA</div>
+        <p style="font-size:.85rem;color:#a89a91;max-width:260px;">We belong to something beautiful. Makeup, skincare, and fragrance from the brands you love — and the ones you're about to.</p>
+        <div class="social-row">
+          <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
+          <a href="https://tiktok.com" aria-label="TikTok" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M14 4v9.5a3.5 3.5 0 1 1-3-3.46"/><path d="M14 4c.5 2.5 2 4 4.5 4.3"/></svg></a>
+          <a href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M14 21v-8h3l.5-3.5H14V7.2c0-1 .4-1.7 1.8-1.7H18V2.3C17.6 2.2 16.3 2 14.8 2 11.7 2 10 3.9 10 7v2.5H7V13h3v8z" fill="currentColor" stroke="none"/></svg></a>
+        </div>
+        <div class="follower-count">2.4M followers across social · @sephora</div>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="products.html">All Products</a></li>
+          <li><a href="brands.html">Brands</a></li>
+          <li><a href="offers.html">Offers</a></li>
+          <li><a href="gift-cards.html">Gift Cards</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <ul>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="cart.html">Track Order</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Account</h4>
+        <ul>
+          <li><a href="signup.html">Join Beauty Insider</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="account.html">My Account</a></li>
+          <li><a href="forgot-password.html">Forgot Password</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="terms-of-use.html">Terms of Use</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Sephora Project — an academic, non-commercial recreation for coursework purposes.</span>
+      <span><a href="privacy-policy.html">Privacy</a> &nbsp;·&nbsp; <a href="terms-of-use.html">Terms</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/api.js"></script>
+<script src="js/main.js"></script>
+<script src="js/enhance.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/newsletter.js"></script>
+<script src="js/giftcard.js"></script>
+</body>
+</html>

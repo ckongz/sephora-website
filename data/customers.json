@@ -1,0 +1,47 @@
+[
+  {
+    "customerId": "c001",
+    "name": "Juana Dela Cruz",
+    "email": "juana.delacruz@example.com",
+    "membershipTier": "VIB",
+    "points": 3420,
+    "joinDate": "2024-03-15",
+    "role": "customer"
+  },
+  {
+    "customerId": "c002",
+    "name": "Marco Reyes",
+    "email": "marco.reyes@example.com",
+    "membershipTier": "Insider",
+    "points": 540,
+    "joinDate": "2025-11-02",
+    "role": "customer"
+  },
+  {
+    "customerId": "c003",
+    "name": "Sophia Lim",
+    "email": "sophia.lim@example.com",
+    "membershipTier": "Rouge",
+    "points": 12980,
+    "joinDate": "2021-07-09",
+    "role": "customer"
+  },
+  {
+    "customerId": "c004",
+    "name": "Emily Ramos",
+    "email": "emily.ramos@example.com",
+    "membershipTier": "VIB",
+    "points": 5640,
+    "joinDate": "2023-01-22",
+    "role": "customer"
+  },
+  {
+    "customerId": "c005",
+    "name": "Chice Mercado",
+    "email": "chice.mercado@example.com",
+    "membershipTier": "Rouge",
+    "points": 18760,
+    "joinDate": "2020-05-30",
+    "role": "customer"
+  }
+]

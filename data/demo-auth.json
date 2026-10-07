@@ -1,0 +1,32 @@
+{
+  "note": "Static-mode (no server) demo logins. SHA-256 hashes of the sample passwords listed on login.html.",
+  "staff": [
+    {
+      "customerId": "a001",
+      "name": "Sephora Admin",
+      "email": "admin@sephora.com",
+      "membershipTier": "Staff",
+      "points": 0,
+      "joinDate": "2020-01-01",
+      "role": "admin"
+    },
+    {
+      "customerId": "a002",
+      "name": "Store Manager",
+      "email": "manager@sephora.com",
+      "membershipTier": "Staff",
+      "points": 0,
+      "joinDate": "2021-06-01",
+      "role": "admin"
+    }
+  ],
+  "hashes": {
+    "admin@sephora.com": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "manager@sephora.com": "866485796cfa8d7c0cf7111640205b83076433547577511d81f8030ae99ecea5",
+    "juana.delacruz@example.com": "9e678a77c0ea2e8e2f06ca01773d2e7aecdc1c33fc28673d2c605a1f1bf81aff",
+    "marco.reyes@example.com": "9e678a77c0ea2e8e2f06ca01773d2e7aecdc1c33fc28673d2c605a1f1bf81aff",
+    "sophia.lim@example.com": "9e678a77c0ea2e8e2f06ca01773d2e7aecdc1c33fc28673d2c605a1f1bf81aff",
+    "emily.ramos@example.com": "9e678a77c0ea2e8e2f06ca01773d2e7aecdc1c33fc28673d2c605a1f1bf81aff",
+    "chice.mercado@example.com": "9e678a77c0ea2e8e2f06ca01773d2e7aecdc1c33fc28673d2c605a1f1bf81aff"
+  }
+}

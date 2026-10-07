@@ -1,0 +1,1 @@
+Optional local font files. The site currently loads Fraunces + Inter from Google Fonts (see the @import at the top of css/style.css), so this folder is only needed if you want to self-host fonts instead.

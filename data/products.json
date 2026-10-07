@@ -1,0 +1,560 @@
+[
+  {
+    "id": "p001",
+    "name": "Cloud Cushion Foundation",
+    "brand": "Sephora Collection",
+    "category": "Makeup",
+    "price": 1650,
+    "rating": 4.7,
+    "reviews": 312,
+    "availability": "In Stock",
+    "description": "A lightweight, buildable cushion foundation with a natural, skin-like finish. Available in 30 shades.",
+    "benefits": [
+      "Buildable, skin-like coverage",
+      "30 shade range",
+      "Lightweight, breathable feel",
+      "SPF 25 protection"
+    ],
+    "image": "images/products/cloud-cushion-foundation.png"
+  },
+  {
+    "id": "p002",
+    "name": "Glow Drops Vitamin C Serum",
+    "brand": "Sephora Collection",
+    "category": "Skincare",
+    "price": 1890,
+    "rating": 4.8,
+    "reviews": 540,
+    "availability": "In Stock",
+    "description": "Brightens and smooths in 14 days with stabilized 15% vitamin C and ferulic acid.",
+    "benefits": [
+      "15% stabilized vitamin C",
+      "Visibly brighter skin in 14 days",
+      "Smooths fine lines",
+      "Fragrance-free formula"
+    ],
+    "image": "images/products/glow-drops-vitamin-c-serum.png"
+  },
+  {
+    "id": "p003",
+    "name": "Rouge Velvet Matte Lipstick",
+    "brand": "Maison Caramel",
+    "category": "Makeup",
+    "price": 1150,
+    "rating": 4.6,
+    "reviews": 208,
+    "availability": "In Stock",
+    "description": "Long-wear color that never feels dry — a true matte finish with a soft, cushioned bullet.",
+    "benefits": [
+      "12-hour matte wear",
+      "Cushioned, non-drying bullet",
+      "One-swipe opaque color",
+      "Transfer-resistant finish"
+    ],
+    "image": "images/products/rouge-velvet-matte-lipstick.png"
+  },
+  {
+    "id": "p004",
+    "name": "Soft Focus Setting Powder",
+    "brand": "Sephora Collection",
+    "category": "Makeup",
+    "price": 990,
+    "rating": 4.5,
+    "reviews": 176,
+    "availability": "In Stock",
+    "description": "Blurs pores without the cakey finish — a fine-milled, translucent powder for all skin tones.",
+    "benefits": [
+      "Fine-milled, translucent finish",
+      "Blurs pores instantly",
+      "Controls shine all day",
+      "Works on every skin tone"
+    ],
+    "image": "images/products/soft-focus-setting-powder.png"
+  },
+  {
+    "id": "p005",
+    "name": "Vanille Noire Eau de Parfum",
+    "brand": "Lumière Paris",
+    "category": "Fragrance",
+    "price": 3450,
+    "rating": 4.9,
+    "reviews": 421,
+    "availability": "In Stock",
+    "description": "Warm vanilla with a hint of amber — a signature scent that lingers beautifully.",
+    "benefits": [
+      "Warm vanilla & amber base",
+      "8+ hour wear time",
+      "Hand-finished glass bottle",
+      "Layers beautifully with body care"
+    ],
+    "image": "images/products/vanille-noire-eau-de-parfum.png"
+  },
+  {
+    "id": "p006",
+    "name": "Overnight Repair Cream",
+    "brand": "Skincare Lab",
+    "category": "Skincare",
+    "price": 2250,
+    "rating": 4.7,
+    "reviews": 289,
+    "availability": "Low Stock",
+    "description": "A rich, ceramide-infused night cream that visibly repairs the skin barrier by morning.",
+    "benefits": [
+      "Ceramide-infused formula",
+      "Repairs barrier overnight",
+      "Rich, non-greasy texture",
+      "Wakes up visibly softer skin"
+    ],
+    "image": "images/products/overnight-repair-cream.png"
+  },
+  {
+    "id": "p007",
+    "name": "Amber & Oud Rollerball Set",
+    "brand": "Terra",
+    "category": "Fragrance",
+    "price": 1450,
+    "rating": 4.4,
+    "reviews": 97,
+    "availability": "In Stock",
+    "description": "Three travel-friendly rollerballs in warm, woody scents — perfect for gifting or trying before you commit.",
+    "benefits": [
+      "Set of 3 rollerballs",
+      "Warm, woody scent family",
+      "TSA-friendly travel size",
+      "Great for gifting"
+    ],
+    "image": "images/products/amber-and-oud-rollerball-set.png"
+  },
+  {
+    "id": "p008",
+    "name": "Pro Blend Brush Set",
+    "brand": "Sephora Collection",
+    "category": "Makeup",
+    "price": 2950,
+    "rating": 4.8,
+    "reviews": 233,
+    "availability": "In Stock",
+    "description": "A 7-piece vegan bristle brush set for flawless face and eye application, in a reusable pouch.",
+    "benefits": [
+      "7 vegan-bristle brushes",
+      "Face & eye application set",
+      "Reusable travel pouch",
+      "Cruelty-free construction"
+    ],
+    "image": "images/products/pro-blend-brush-set.png"
+  },
+  {
+    "id": "p009",
+    "name": "Hydra Repair Shampoo & Conditioner Duo",
+    "brand": "Nordic Beauty",
+    "category": "Hair",
+    "price": 1780,
+    "rating": 4.5,
+    "reviews": 154,
+    "availability": "In Stock",
+    "description": "A sulfate-free duo that repairs damage and restores shine without weighing hair down.",
+    "benefits": [
+      "Sulfate-free formula",
+      "Repairs visible damage",
+      "Restores natural shine",
+      "Lightweight, no buildup"
+    ],
+    "image": "images/products/hydra-repair-shampoo-and-conditioner-duo.png"
+  },
+  {
+    "id": "p010",
+    "name": "Whipped Shea Body Butter",
+    "brand": "Terra",
+    "category": "Bath & Body",
+    "price": 1290,
+    "rating": 4.6,
+    "reviews": 188,
+    "availability": "In Stock",
+    "description": "A rich, fast-absorbing whipped butter that leaves skin soft for up to 48 hours.",
+    "benefits": [
+      "Whipped shea texture",
+      "Fast-absorbing, non-greasy",
+      "48-hour hydration",
+      "Clean, plant-based formula"
+    ],
+    "image": "images/products/whipped-shea-body-butter.png"
+  },
+  {
+    "id": "p011",
+    "name": "Charcoal Detox Face Wash",
+    "brand": "Sephora Men",
+    "category": "Men",
+    "price": 890,
+    "rating": 4.3,
+    "reviews": 112,
+    "availability": "In Stock",
+    "description": "A daily cleanser with activated charcoal to clear pores and refresh skin without stripping it.",
+    "benefits": [
+      "Activated charcoal formula",
+      "Clears pores daily",
+      "Won't strip natural oils",
+      "Fresh, energizing scent"
+    ],
+    "image": "images/products/charcoal-detox-face-wash.png"
+  },
+  {
+    "id": "p012",
+    "name": "Cedar & Sage Grooming Balm",
+    "brand": "Sephora Men",
+    "category": "Men",
+    "price": 1050,
+    "rating": 4.4,
+    "reviews": 68,
+    "availability": "In Stock",
+    "description": "A lightweight beard and skin balm with a warm, woody scent for everyday grooming.",
+    "benefits": [
+      "Beard & skin dual-use",
+      "Lightweight, non-greasy",
+      "Warm, woody scent",
+      "Everyday grooming staple"
+    ],
+    "image": "images/products/cedar-and-sage-grooming-balm.png"
+  },
+  {
+    "id": "p013",
+    "name": "Mini Glow Drops Vitamin C Serum",
+    "brand": "Sephora Collection",
+    "category": "Mini Size",
+    "price": 590,
+    "rating": 4.7,
+    "reviews": 96,
+    "availability": "In Stock",
+    "description": "The travel-size version of our best-selling brightening serum — perfect for trying it first.",
+    "benefits": [
+      "Travel-friendly size",
+      "Same 15% vitamin C formula",
+      "Perfect for first-time try",
+      "TSA compliant"
+    ],
+    "image": "images/products/mini-glow-drops-vitamin-c-serum.png"
+  },
+  {
+    "id": "p014",
+    "name": "Weekend Getaway Skincare Kit",
+    "brand": "Armani Beauty",
+    "category": "Mini Size",
+    "price": 1380,
+    "rating": 4.6,
+    "reviews": 74,
+    "availability": "In Stock",
+    "description": "Four travel-size minis — cleanser, toner, moisturizer, and SPF — TSA-friendly and ready to pack.",
+    "benefits": [
+      "4-piece travel routine",
+      "Cleanser, toner, moisturizer, SPF",
+      "TSA-friendly sizing",
+      "Ready to pack in seconds"
+    ],
+    "image": "images/products/weekend-getaway-skincare-kit.png"
+  },
+  {
+    "id": "p015",
+    "name": "The Glow Getter Gift Set",
+    "brand": "Sephora Collection",
+    "category": "Gift Sets",
+    "price": 2650,
+    "rating": 4.9,
+    "reviews": 201,
+    "availability": "In Stock",
+    "description": "Cloud Cushion Foundation, Soft Focus Powder, and Pro Blend mini brush — beautifully boxed and ready to gift.",
+    "benefits": [
+      "3 bestsellers in one box",
+      "Beautifully gift-boxed",
+      "Great for beauty beginners",
+      "Includes mini brush"
+    ],
+    "image": "images/products/the-glow-getter-gift-set.png"
+  },
+  {
+    "id": "p016",
+    "name": "Scent Layering Discovery Set",
+    "brand": "Lumière Paris",
+    "category": "Gift Sets",
+    "price": 1980,
+    "rating": 4.7,
+    "reviews": 133,
+    "availability": "In Stock",
+    "description": "Four 10ml fragrances designed to be worn alone or layered — includes Vanille Noire.",
+    "benefits": [
+      "4 x 10ml discovery scents",
+      "Designed to layer or wear solo",
+      "Includes Vanille Noire",
+      "Elegant gift presentation"
+    ],
+    "image": "images/products/scent-layering-discovery-set.png"
+  },
+  {
+    "id": "p017",
+    "name": "Barrier Repair Moisturizer",
+    "brand": "Skincare Lab",
+    "category": "Skincare",
+    "price": 1690,
+    "rating": 4.6,
+    "reviews": 165,
+    "availability": "In Stock",
+    "description": "A ceramide-rich daily moisturizer that calms redness and locks in hydration for 24 hours.",
+    "benefits": [
+      "Ceramide-rich formula",
+      "Calms visible redness",
+      "24-hour hydration lock",
+      "Fragrance-free, daily use"
+    ],
+    "image": "images/products/barrier-repair-moisturizer.png"
+  },
+  {
+    "id": "p018",
+    "name": "Silk Wave Curl Cream",
+    "brand": "Nordic Beauty",
+    "category": "Hair",
+    "price": 1150,
+    "rating": 4.3,
+    "reviews": 88,
+    "availability": "Low Stock",
+    "description": "A lightweight curl cream that defines waves and curls without crunch or residue.",
+    "benefits": [
+      "Defines waves & curls",
+      "No crunch, no residue",
+      "Lightweight, all-day hold",
+      "Adds natural shine"
+    ],
+    "image": "images/products/silk-wave-curl-cream.png"
+  },
+  {
+    "id": "p019",
+    "name": "Ceramic Skin Foundation",
+    "brand": "Haus Lab",
+    "category": "Makeup",
+    "price": 1990,
+    "rating": 4.6,
+    "reviews": 142,
+    "availability": "In Stock",
+    "description": "A medium-to-full coverage foundation with a soft, ceramic-smooth finish that photographs beautifully.",
+    "benefits": [
+      "Medium-to-full coverage",
+      "Soft, ceramic-smooth finish",
+      "Photographs beautifully",
+      "24-hour wear"
+    ],
+    "image": "images/products/ceramic-skin-foundation.png"
+  },
+  {
+    "id": "p020",
+    "name": "Supermud Clearing Treatment",
+    "brand": "Glam Glow",
+    "category": "Skincare",
+    "price": 1780,
+    "rating": 4.5,
+    "reviews": 310,
+    "availability": "In Stock",
+    "description": "A mineral-rich clearing mask that draws out impurities and visibly tightens pores in 10 minutes.",
+    "benefits": [
+      "Mineral-rich clearing mask",
+      "Visibly tightens pores",
+      "Works in just 10 minutes",
+      "Clarifies without over-drying"
+    ],
+    "image": "images/products/supermud-clearing-treatment.png"
+  },
+  {
+    "id": "p021",
+    "name": "Featherlight Blur Primer",
+    "brand": "Beautifo",
+    "category": "Makeup",
+    "price": 1290,
+    "rating": 4.4,
+    "reviews": 121,
+    "availability": "In Stock",
+    "description": "A silky, pore-blurring primer that preps skin for a smooth, longer-lasting makeup application.",
+    "benefits": [
+      "Silky, pore-blurring texture",
+      "Extends makeup wear time",
+      "Weightless, non-greasy feel",
+      "Preps for flawless application"
+    ],
+    "image": "images/products/featherlight-blur-primer.png"
+  },
+  {
+    "id": "p022",
+    "name": "Silk Lash False Eyelashes",
+    "brand": "Velour",
+    "category": "Makeup",
+    "price": 890,
+    "rating": 4.6,
+    "reviews": 203,
+    "availability": "In Stock",
+    "description": "Reusable, feather-light faux lashes with a natural fan and a flexible, comfortable band.",
+    "benefits": [
+      "Reusable up to 20 times",
+      "Feather-light, natural fan",
+      "Flexible comfort band",
+      "Easy to apply & remove"
+    ],
+    "image": "images/products/silk-lash-false-eyelashes.png"
+  },
+  {
+    "id": "p023",
+    "name": "Vital Skin Foundation Stick",
+    "brand": "Westman Atelier",
+    "category": "Makeup",
+    "price": 2890,
+    "rating": 4.8,
+    "reviews": 176,
+    "availability": "In Stock",
+    "description": "A skincare-infused foundation stick that melts into skin for a lit-from-within, second-skin finish.",
+    "benefits": [
+      "Skincare-infused formula",
+      "Second-skin, dewy finish",
+      "Buildable stick application",
+      "Blends with fingertips or brush"
+    ],
+    "image": "images/products/vital-skin-foundation-stick.png"
+  },
+  {
+    "id": "p024",
+    "name": "Soft Pinch Liquid Blush",
+    "brand": "Rare Beauty",
+    "category": "Makeup",
+    "price": 1150,
+    "rating": 4.9,
+    "reviews": 498,
+    "availability": "In Stock",
+    "description": "A featherweight liquid blush that blends into a soft, natural-looking flush in seconds.",
+    "benefits": [
+      "Featherweight liquid formula",
+      "Soft, natural-looking flush",
+      "Blends in seconds",
+      "Buildable, long-lasting color"
+    ],
+    "image": "images/products/soft-pinch-liquid-blush.png"
+  },
+  {
+    "id": "p025",
+    "name": "Gloss Bomb Universal Lip Luminizer",
+    "brand": "Fenty Beauty",
+    "category": "Makeup",
+    "price": 990,
+    "rating": 4.8,
+    "reviews": 612,
+    "availability": "In Stock",
+    "description": "A universally flattering, non-sticky lip gloss with explosive shine and a hint of tint.",
+    "benefits": [
+      "Universally flattering tint",
+      "Explosive, mirror-like shine",
+      "Non-sticky formula",
+      "Conditions lips with vitamin E"
+    ],
+    "image": "images/products/gloss-bomb-universal-lip-luminizer.png"
+  },
+  {
+    "id": "p026",
+    "name": "Smoked Rose Eau de Parfum",
+    "brand": "Cinder Rose",
+    "category": "Fragrance",
+    "price": 3190,
+    "rating": 4.7,
+    "reviews": 145,
+    "availability": "In Stock",
+    "description": "A smoky, modern rose fragrance layered with warm woods and a whisper of dark spice.",
+    "benefits": [
+      "Smoky, modern rose profile",
+      "Warm wood & spice dry-down",
+      "Long-lasting 8+ hour wear",
+      "Statement glass bottle"
+    ],
+    "image": "images/products/smoked-rose-eau-de-parfum.png"
+  },
+  {
+    "id": "p027",
+    "name": "Tinted Skin Serum",
+    "brand": "Clean Makeup",
+    "category": "Skincare",
+    "price": 1590,
+    "rating": 4.5,
+    "reviews": 167,
+    "availability": "In Stock",
+    "description": "A lightweight, skincare-first tinted serum that evens tone while treating skin underneath.",
+    "benefits": [
+      "Skincare-first tinted formula",
+      "Evens tone as it treats",
+      "Lightweight, breathable feel",
+      "Clean, non-toxic ingredients"
+    ],
+    "image": "images/products/tinted-skin-serum.png"
+  },
+  {
+    "id": "p028",
+    "name": "Original Loose Mineral Foundation",
+    "brand": "Bare Minerals",
+    "category": "Makeup",
+    "price": 1690,
+    "rating": 4.6,
+    "reviews": 389,
+    "availability": "In Stock",
+    "description": "The original loose mineral powder foundation — buildable, breathable coverage for sensitive skin.",
+    "benefits": [
+      "100% mineral formula",
+      "Buildable, breathable coverage",
+      "Gentle on sensitive skin",
+      "Talc-free, non-comedogenic"
+    ],
+    "image": "images/products/original-loose-mineral-foundation.png"
+  },
+  {
+    "id": "p029",
+    "name": "Golden Hour Bronzing Drops",
+    "brand": "Golden Hour Cosmetics",
+    "category": "Makeup",
+    "price": 1250,
+    "rating": 4.5,
+    "reviews": 134,
+    "availability": "In Stock",
+    "description": "Liquid bronzing drops that mix into skincare or foundation for a lit-from-within summer glow.",
+    "benefits": [
+      "Mixes into skincare or base",
+      "Lit-from-within glow",
+      "Buildable, blendable drops",
+      "Warm, sunkissed finish"
+    ],
+    "image": "images/products/golden-hour-bronzing-drops.png"
+  },
+  {
+    "id": "p030",
+    "name": "Volumizing Shampoo Bar",
+    "brand": "Salt and Stone",
+    "category": "Bath & Body",
+    "price": 990,
+    "rating": 4.4,
+    "reviews": 99,
+    "availability": "In Stock",
+    "description": "A zero-waste, sulfate-free shampoo bar that adds volume and body without weighing hair down.",
+    "benefits": [
+      "Zero-waste bar format",
+      "Sulfate-free formula",
+      "Adds volume & body",
+      "Plastic-free packaging"
+    ],
+    "image": "images/products/volumizing-shampoo-bar.png"
+  },
+  {
+    "id": "p031",
+    "name": "Eye of the Storm Eyeshadow Palette",
+    "brand": "Haus Lab",
+    "category": "Makeup",
+    "price": 2190,
+    "rating": 4.7,
+    "reviews": 158,
+    "availability": "In Stock",
+    "description": "A 12-shade eye palette moving from soft mattes to high-shine metallics for day-to-night eye looks.",
+    "benefits": [
+      "12 blendable shades",
+      "Mattes + metallics in one palette",
+      "Built-in mirror",
+      "Long-wear, crease-resistant formula"
+    ],
+    "image": "images/products/eye-of-the-storm-eyeshadow-palette.png"
+  }
+]

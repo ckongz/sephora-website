@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop By Brand | Sephora</title>
+<meta name="description" content="Browse Sephora by brand — prestige, indie, and the in-house Sephora Collection line.">
+<link rel="icon" type="image/jpeg" href="images/gallery/favicon.png">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/forms.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/enhance.css">
+
+</head>
+<body>
+
+<div class="announcement-bar"><div class="track">✨ FREE STANDARD SHIPPING ON ORDERS OVER ₱1,500 &nbsp;|&nbsp; THE BER-MONTHS SALE IS LIVE — UP TO 30% OFF &nbsp;|&nbsp; JOIN BEAUTY INSIDER FOR FREE REWARDS ✨</div></div>
+<header class="site-header">
+  <div class="nav-wrap">
+    <div class="logo"><a href="index.html">SEPHORA<span>Beauty. All Yours.</span></a></div>
+    <nav class="main-nav">
+      <a href="products.html" class="">Shop</a>
+<a href="brands.html" class="active">Brands</a>
+<a href="features.html" class="">Features</a>
+<a href="offers.html" class="">Offers</a>
+<a href="gift-cards.html" class="">Gift Cards</a>
+<a href="about.html" class="">About</a>
+<a href="faq.html" class="">FAQ</a>
+<a href="contact.html" class="">Contact</a>
+    </nav>
+    <div class="nav-icons">
+      <button class="icon-btn search-toggle" aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></button>
+      <a href="login.html" class="icon-btn" aria-label="Account"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4.5 5-6 8-6s6.5 1.5 8 6"/></svg></a>
+      <a href="cart.html" class="icon-btn cart-icon" aria-label="Cart"><svg viewBox="0 0 24 24"><path d="M6 8h12l-1 13H7L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="cart-count">0</span></a>
+      <button class="hamburger" aria-label="Menu"><svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    </div>
+  </div>
+  <div class="search-panel">
+    <div class="container">
+      <form id="header-search-form" role="search">
+        <input type="text" id="header-search-input" name="q" placeholder="Search products, brands, or concerns (e.g. 'dry skin')" autocomplete="off">
+        <button type="submit" class="btn btn-primary btn-sm">Search</button>
+      </form>
+    </div>
+  </div>
+</header>
+<div class="scrim"></div>
+<aside class="mobile-nav">
+  <button class="mobile-nav-close" aria-label="Close menu"><svg viewBox="0 0 24 24"><path d="M5 5l14 14M19 5L5 19"/></svg></button>
+  <div style="clear:both;height:30px;"></div>
+  <a href="products.html">Shop</a>
+<a href="brands.html">Brands</a>
+<a href="features.html">Features</a>
+<a href="offers.html">Offers</a>
+<a href="gift-cards.html">Gift Cards</a>
+<a href="about.html">About</a>
+<a href="faq.html">FAQ</a>
+<a href="contact.html">Contact</a>
+  <div style="margin-top:24px;display:flex;gap:14px;">
+    <a href="login.html" class="btn btn-outline btn-sm">Login</a>
+    <a href="signup.html" class="btn btn-primary btn-sm">Join</a>
+  </div>
+</aside>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Shop By Brand</span>
+    <h1>Shop By Brand</h1>
+    <div class="breadcrumb"><a href="index.html">Home</a> / Brands</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+
+    <!-- Description -->
+    <p class="lede text-center reveal" style="margin: 0 auto 40px;">
+      From cult-favorite indies to iconic luxury houses — browse the brands that fill our shelves, including prestige skincare, prestige makeup, niche fragrance houses, and our in-house Sephora Collection line.
+    </p>
+
+    <!-- Alphabet Filter -->
+    <div class="az-bar reveal">
+      <button>A</button>
+      <button>B</button>
+      <button>C</button>
+      <button>D</button>
+      <button>E</button>
+      <button>F</button>
+      <button>G</button>
+      <button>H</button>
+      <button>I</button>
+      <button>J</button>
+      <button>K</button>
+      <button>L</button>
+      <button>M</button>
+      <button>N</button>
+      <button>O</button>
+      <button>P</button>
+      <button>Q</button>
+      <button>R</button>
+      <button>S</button>
+      <button>T</button>
+      <button>U</button>
+      <button>V</button>
+      <button>W</button>
+      <button>X</button>
+      <button>Y</button>
+      <button>Z</button>
+    </div>
+
+    <!-- Brand Grid -->
+    <div class="category-grid brand-grid" id="brand-grid">
+
+      <!-- 1. Sephora Collection -->
+      <a class="brand-tile reveal" href="products.html?brand=Sephora%20Collection" data-brand="Sephora Collection">
+        <img
+          src="images/brands/sephora-collection.jpg"
+          alt="Sephora Collection"
+        >
+        <span>Sephora Collection</span>
+      </a>
+
+      <!-- 2. Maison Caramel -->
+      <a class="brand-tile reveal" href="products.html?brand=Maison%20Caramel" data-brand="Maison Caramel">
+        <img
+          src="images/brands/maison-caramel.avif"
+          alt="Maison Caramel"
+        >
+        <span>Maison Caramel</span>
+      </a>
+
+      <!-- 3. Skincare Lab -->
+      <a class="brand-tile reveal" href="products.html?brand=Skincare%20Lab" data-brand="Skincare Lab">
+        <img
+          src="images/brands/skincare.jpg"
+          alt="Skincare Lab"
+        >
+        <span>Skincare Lab</span>
+      </a>
+
+      <!-- 4. Haus Lab -->
+      <a class="brand-tile reveal" href="products.html?brand=Haus%20Lab" data-brand="Haus Lab">
+        <img
+          src="images/brands/haus-lab.webp"
+          alt="Haus Lab"
+        >
+        <span>Haus Lab</span>
+      </a>
+
+      <!-- 5. Armani Beauty -->
+      <a class="brand-tile reveal" href="products.html?brand=Armani%20Beauty" data-brand="Armani Beauty">
+        <img
+          src="images/brands/armani.webp"
+          alt="Armani Beauty"
+        >
+        <span>Armani Beauty</span>
+      </a>
+
+      <!-- 6. Glam Glow -->
+      <a class="brand-tile reveal" href="products.html?brand=Glam%20Glow" data-brand="Glam Glow">
+        <img
+          src="images/brands/glam-glow.jpg"
+          alt="Glam Glow"
+        >
+        <span>Glam Glow</span>
+      </a>
+
+      <!-- 7. Beautifo -->
+      <a class="brand-tile reveal" href="products.html?brand=Beautifo" data-brand="Beautifo">
+        <img
+          src="images/brands/beautifo.avif"
+          alt="Beautifo"
+        >
+        <span>Beautifo</span>
+      </a>
+
+      <!-- 8. Nordic Beauty -->
+      <a class="brand-tile reveal" href="products.html?brand=Nordic%20Beauty" data-brand="Nordic Beauty">
+        <img
+          src="images/brands/nordic-beauty.png"
+          alt="Nordic Beauty"
+        >
+        <span>Nordic Beauty</span>
+      </a>
+
+      <!-- 9. Velour -->
+      <a class="brand-tile reveal" href="products.html?brand=Velour" data-brand="Velour">
+        <img
+          src="images/brands/velour.avif"
+          alt="Velour & Co."
+        >
+        <span>Velour</span>
+      </a>
+
+      <!-- 10. Lumière Paris -->
+      <a class="brand-tile reveal" href="products.html?brand=Lumi%C3%A8re%20Paris" data-brand="Lumière Paris">
+        <img
+          src="images/brands/Mon-Paris-Eau-de-Toilette-Lumiere.webp"
+          alt="Lumière Paris"
+        >
+        <span>Lumière Paris</span>
+      </a>
+
+      <!-- 11. Terra -->
+      <a class="brand-tile reveal" href="products.html?brand=Terra" data-brand="Terra">
+        <img
+          src="images/brands/terra.webp"
+          alt="Terra"
+        >
+        <span>Terra</span>
+      </a>
+
+      <!-- 12. Sephora Men -->
+      <a class="brand-tile reveal" href="products.html?brand=Sephora%20Men" data-brand="Sephora Men">
+        <img
+          src="images/brands/sephora-men.jpg"
+          alt="Sephora Men"
+        >
+        <span>Sephora Men</span>
+      </a>
+
+      <!-- 13. Westman Atelier -->
+      <a class="brand-tile reveal" href="products.html?brand=Westman%20Atelier" data-brand="Westman Atelier">
+        <img
+          src="images/brands/westman-atelier.webp"
+          alt="Westman Atelier"
+        >
+        <span>Westman Atelier</span>
+      </a>
+
+      <!-- 14. Rare Beauty -->
+      <a class="brand-tile reveal" href="products.html?brand=Rare%20Beauty" data-brand="Rare Beauty">
+        <img
+          src="images/brands/rare-beauty.jpg"
+          alt="Rare Beauty"
+        >
+        <span>Rare Beauty</span>
+      </a>
+
+      <!-- 15. Fenty Beauty -->
+      <a class="brand-tile reveal" href="products.html?brand=Fenty%20Beauty" data-brand="Fenty Beauty">
+        <img
+          src="images/brands/fenty-beauty.webp"
+          alt="Fenty Beauty"
+        >
+        <span>Fenty Beauty</span>
+      </a>
+
+      <!-- 16. Cinder Rose -->
+      <a class="brand-tile reveal" href="products.html?brand=Cinder%20Rose" data-brand="Cinder Rose">
+        <img
+          src="images/brands/cinder-rose.avif"
+          alt="Cinder Rose"
+        >
+        <span>Cinder Rose</span>
+      </a>
+
+      <!-- 17. Clean Makeup -->
+      <a class="brand-tile reveal" href="products.html?brand=Clean%20Makeup" data-brand="Clean Makeup">
+        <img
+          src="images/brands/clean-makeup.jpg"
+          alt="Clean Makeup"
+        >
+        <span>Clean Makeup</span>
+      </a>
+
+      <!-- 18. Bare Minerals -->
+      <a class="brand-tile reveal" href="products.html?brand=Bare%20Minerals" data-brand="Bare Minerals">
+        <img
+          src="images/brands/bare-minerals.webp"
+          alt="Bare Minerals"
+        >
+        <span>Bare Minerals</span>
+      </a>
+
+      <!-- 19. Golden Hour Cosmetics -->
+      <a class="brand-tile reveal" href="products.html?brand=Golden%20Hour%20Cosmetics" data-brand="Golden Hour Cosmetics">
+        <img
+          src="images/brands/golden-hour-cosmetics.webp"
+          alt="Golden Hour Cosmetics"
+        >
+        <span>Golden Hour Cosmetics</span>
+      </a>
+
+      <!-- 20. Salt and Stone -->
+      <a class="brand-tile reveal" href="products.html?brand=Salt%20and%20Stone" data-brand="Salt and Stone">
+        <img
+          src="images/brands/salt-and-stone.avif"
+          alt="Salt & Stone"
+        >
+        <span>Salt and Stone</span>
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+<div class="newsletter-strip">
+  <div class="container">
+    <span class="eyebrow on-dark">Straight To Your Inbox</span>
+    <h2 style="color:#fff;">Get 10% Off Your First Order</h2>
+    <p style="color:#e9ddd5;max-width:520px;margin:0 auto;">Sign up for exclusive offers, early sale access, and beauty tips — Beauty Insiders only.</p>
+    <form class="newsletter-form">
+      <input type="email" placeholder="Enter your email address" required>
+      <button type="submit" class="btn btn-dark">Get My Offer</button>
+    </form>
+    <div class="form-msg"></div>
+  </div>
+</div>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">SEPHORA</div>
+        <p style="font-size:.85rem;color:#a89a91;max-width:260px;">We belong to something beautiful. Makeup, skincare, and fragrance from the brands you love — and the ones you're about to.</p>
+        <div class="social-row">
+          <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
+          <a href="https://tiktok.com" aria-label="TikTok" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M14 4v9.5a3.5 3.5 0 1 1-3-3.46"/><path d="M14 4c.5 2.5 2 4 4.5 4.3"/></svg></a>
+          <a href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M14 21v-8h3l.5-3.5H14V7.2c0-1 .4-1.7 1.8-1.7H18V2.3C17.6 2.2 16.3 2 14.8 2 11.7 2 10 3.9 10 7v2.5H7V13h3v8z" fill="currentColor" stroke="none"/></svg></a>
+        </div>
+        <div class="follower-count">2.4M followers across social · @sephora</div>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="products.html">All Products</a></li>
+          <li><a href="brands.html">Brands</a></li>
+          <li><a href="offers.html">Offers</a></li>
+          <li><a href="gift-cards.html">Gift Cards</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <ul>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="cart.html">Track Order</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Account</h4>
+        <ul>
+          <li><a href="signup.html">Join Beauty Insider</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="account.html">My Account</a></li>
+          <li><a href="forgot-password.html">Forgot Password</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="terms-of-use.html">Terms of Use</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Sephora Project — an academic, non-commercial recreation for coursework purposes.</span>
+      <span><a href="privacy-policy.html">Privacy</a> &nbsp;·&nbsp; <a href="terms-of-use.html">Terms</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/api.js"></script>
+<script src="js/main.js"></script>
+<script src="js/enhance.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/newsletter.js"></script>
+</body>
+</html>
